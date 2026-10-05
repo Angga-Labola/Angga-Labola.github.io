@@ -51,6 +51,63 @@ div {
     }
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(30, 30, 30, 0.85); /* Dark charcoal with transparency */
+  backdrop-filter: blur(10px); /* Glassmorphism blur effect */
+  padding: 1rem 5%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle light border */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+/* Links List */
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+/* Individual Links */
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover,
+.navbar .nav-links a.active {
+  color: #3b82f6; /* Vibrant accent blue */
+}
+
+/* Call to Action Button */
+.navbar .cta-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .cta-btn:hover {
+  background-color: #2563eb;
+}
+
 .button-link {
   display: inline-block;
   padding: 10px 20px;
