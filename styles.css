@@ -2,10 +2,23 @@ h1 {
     font-size: 1.25rem; /* Makes the H1 header smaller (approx 20px) */
 }
 
+p { "Times new roman", cursive;
+     text-align: justify;
+      padding: 20px; /* Adds 20 pixels of space on all four sides */
+}
+
 div {
     "Bradley Hand", cursive;
 }
 
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Optional: prevents the image from breaking mobile screens */
+    max-width: 100%;
+    height: auto; 
+  }
 
 /* Style the heart container */
 .heart-emoji {
@@ -38,3 +51,15 @@ div {
     }
 }
 
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3E5641;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.button-link:hover {
+  background-color: #0056b3;
+}
