@@ -1,7 +1,12 @@
 h1 {
-        font-size: 1.25rem; /* Makes the H1 header smaller (approx 20px) */
+    font-size: 1.25rem; /* Makes the H1 header smaller (approx 20px) */
 }
-        
+
+div {
+    "Bradley Hand", cursive;
+}
+
+
 /* Style the heart container */
 .heart-emoji {
         font-size: 80px; /* Make the emoji large */
