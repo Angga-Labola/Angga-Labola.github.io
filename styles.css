@@ -12,13 +12,13 @@ h2 {
 }
 
 
-p { "Times new roman", cursive;
-     text-align: justify;
+p { font-family: "Times new roman", cursive;
+    text-align: justify;
       padding: 10px; /* Adds 20 pixels of space on all four sides */
 }
 
 div {
-    "Bradley Hand", cursive;
+    font-family: "Tangerine";
 }
 
 .center-block {
