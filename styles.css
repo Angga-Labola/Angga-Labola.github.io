@@ -1,10 +1,20 @@
 h1 {
     font-size: 1.25rem; /* Makes the H1 header smaller (approx 20px) */
+    text-align: justify;
+      padding: 10px 10px 0px; /* Adds 20 pixels of space on all four sides */
+      
 }
+
+h2 {
+    text-align: justify;
+      padding: 10px 10px 0px; /* Adds 20 pixels of space on all four sides */
+      color: #3E5641;
+}
+
 
 p { "Times new roman", cursive;
      text-align: justify;
-      padding: 20px; /* Adds 20 pixels of space on all four sides */
+      padding: 10px; /* Adds 20 pixels of space on all four sides */
 }
 
 div {
