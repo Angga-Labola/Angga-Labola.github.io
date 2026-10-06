@@ -5,28 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
     <title>Angga Labola</title>
 </head>
 
 <body>
 
-<nav class="navbar">
-        
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="quotes.html">Quotes</a></li>
-            <li><a href="articles.html">Articles</a></li>
-        </ul>
-
-        
-</nav>
+<div id="navbar-placeholder"></div>
+<script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+</script>
 
 <img src="photos\Linda.jpg" alt="Linda" height="250" width="150">
-
-<div style="font-size: 48px;">Halo, Linda Sintawati Dami!</div>
-<div style="font-size: 48px;">I love you so much!</div>
+<br>
+<span>Halo, Linda Sintawati Dami!</span>
+<br>
+<span>I love you so much!</span>
 
 <br>
 

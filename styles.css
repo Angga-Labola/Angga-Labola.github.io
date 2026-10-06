@@ -17,8 +17,13 @@ p { font-family: "Times new roman", cursive;
       padding: 10px; /* Adds 20 pixels of space on all four sides */
 }
 
+span {
+  font-family: "Tangerine";
+  font-size: 30px;
+}
+
 div {
-    font-family: "Tangerine";
+    font-family: "Times new roman", cursive;
 }
 
 .center-block {
