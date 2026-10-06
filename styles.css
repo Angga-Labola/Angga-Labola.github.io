@@ -1,18 +1,18 @@
 
 body {
   /* Using a Hex code for a deep, modern dark gray */
-  background-color: #010101; 
+  background-color: #000000; 
   
   /* Make sure your text color is light so it is readable! */
   color: #73613c; 
 }
 
-h2 {
-    text-align: justify;
-      padding: 10px 10px 0px; /* Adds 20 pixels of space on all four sides */
-      
+summary {
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 10px 10px 0px;
 }
-
 
 p { 
     font-family: "Times new roman", cursive;
