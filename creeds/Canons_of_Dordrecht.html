@@ -12,14 +12,14 @@
 
 <div id="navbar-placeholder"></div>
 <script>
-        fetch("../navbar-inside-folder.html")
+        fetch("/navbar.html")
             .then(response => response.text())
             .then(data => {
                 document.getElementById('navbar-placeholder').innerHTML = data;
             });
 </script>
 
-<img src="..\photos\cross_vector.jpg" alt="Cross" height="250" width="150" class="center-block">
+<img src="\photos\cross_vector.jpg" alt="Cross" height="250" width="150" class="center-block">
 
 <span><h2>
 Canons of Dordrecht

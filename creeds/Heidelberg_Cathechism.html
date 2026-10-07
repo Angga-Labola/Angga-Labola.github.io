@@ -11,14 +11,14 @@
 <body>
 <div id="navbar-placeholder"></div>
 <script>
-        fetch("../navbar-inside-folder.html")
+        fetch("/navbar.html")
             .then(response => response.text())
             .then(data => {
                 document.getElementById('navbar-placeholder').innerHTML = data;
             });
 </script>
 
-<img src="..\photos\cross_vector.jpg" alt="Cross" height="250" width="150" class="center-block">
+<img src="\photos\cross_vector.jpg" alt="Cross" height="250" width="150" class="center-block">
 
 <span><h2>
 Heidelberg Cathechism
@@ -739,7 +739,7 @@ Heidelberg Cathechism
         
         sin excepted.
         <br><br>
-        Question 36
+        <strong>Question 36</strong>
         <br><br>
         What profit dost thou receive by Christ’s holy conception and nativity?
         <br><br>
