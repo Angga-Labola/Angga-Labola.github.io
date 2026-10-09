@@ -20,7 +20,6 @@ summary {
 
 p { 
     font-family: "Times new roman", cursive;
-    text-align: justify;
       padding: 10px; /* Adds 20 pixels of space on all four sides */
     max-width: 800px;
 }
