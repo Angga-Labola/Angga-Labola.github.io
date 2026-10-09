@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+  .right-sidebar { 
+    display: none; 
+  }
+}
 
 body {
   /* Using a Hex code for a deep, modern dark gray */
@@ -5,10 +10,6 @@ body {
   
   /* Make sure your text color is light so it is readable! */
   color: #73613c; 
-}
-
-main {
-  margin-right: 250 px;
 }
 
 details {
@@ -34,9 +35,17 @@ span {
   font-size: 30px;
 }
 
- .giscus-container{
-      padding: 10 px;
-      margin: 10 px;
+.box{
+  border: solid 1px  #73613c;
+  margin:10px;
+  padding: 10px;
+  max-width: 620px;
+  border-radius: 10px;
+  }
+
+.giscus-container{
+      padding: 10px;
+      margin: 10px;
       max-width: 620px;
     }
 
@@ -131,18 +140,6 @@ span {
   border-left: solid 1px;
 }
 
-/* Sidebar Links */
-.right-sidebar a {
-  display: block;
-  color: #ecf0f1;
-  text-decoration: none;
-  padding: 10px 0;
-}
-.right-sidebar a:hover {
-  color: #3498db;
-}
-
-/* Style the heart container */
 
 .heart-emoji {
         font-size: 80px; /* Make the emoji large */
