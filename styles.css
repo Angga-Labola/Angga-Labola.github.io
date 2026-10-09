@@ -24,6 +24,7 @@ summary {
 }
 
 p { 
+    text-align: justify;
     font-family: "Times new roman", cursive;
       padding: 10px; /* Adds 20 pixels of space on all four sides */
     max-width: 600px;
@@ -67,6 +68,17 @@ span {
   border-radius: 5px;
   text-align: center;
 }
+
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3E5641;
+  color : white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: left;
+}
+
 
 .button-link:hover {
   background-color: #0056b3;
